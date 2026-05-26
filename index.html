@@ -450,7 +450,7 @@ function buildAOCard(i) {
   div.className = 'ao-card';
   div.innerHTML = `
     <div class="ao-card-head">
-      <div class="ao-ch-label">AO${i+1}</div>
+      <div class="ao-ch-label">AO-${i+1}</div>
       <button class="ao-reset" onclick="resetAO(${i})" title="Reset a 4 mA">⬛ RESET</button>
       <div class="mode-tabs">
         <button class="mode-tab active"       data-ch="${i}" data-mode="mA"     onclick="setMode(${i},'mA')">mA</button>
